@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  font-family: Helvetica, sans-serif;;
+}
+
+body {
+  /* background-color:red; */
+}
+
+#flower-logo {
+  width:80px;
+  float:left;
+  margin-right: 30px;
+}
+
+#top-navigation {
+  background-color:#C9D7FF;
+  overflow: auto;
+}
+
+#content-container {
+  background-color: #FFFEBA;
+
+}
+#top-navigation, #content-container, #footer {
+  padding: 30px;
+}
+
+#company-tagline {
+  padding-top:34px;
+}
+
+#site-map {
+  float:right;
+  position: relative;
+  bottom: 25px;
+}
+
+#site-map ul li {
+  display:inline-block;
+  border-radius:5px;
+  background-color:#FFC2EC;
+  padding:10px;
+  margin-right:10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size:12px;
+}
+
+#site-map ul #cta-btn {
+  background-color:#BDADFF;
+}
+
+h2 {
+  margin: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size:16px;
+}
+
+p {
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+#footer {
+  background-color: #A0DB9E;
+}
+
+.big-letter {
+  float: left;
+  font-size:40px;
+  border: 1px solid black;
+  padding:10px;
+  margin: 0 10px 5px 0;
+}
